@@ -1,0 +1,96 @@
+@font-face {
+   font-family:'barthowheel';
+   src: url('barthowheel.ttf') format('truetype');
+   font-weight: normal;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    }
+.footer {
+
+    background: black;
+    height: 40px;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    padding:10px;
+    color:#f7931a;
+    border-top: 1px solid;
+    }
+.center{
+    color: #fff;
+	font-size: 30px;
+    position:absolute;
+    display:block;
+    height:300px;
+    width:300px;
+    left:50%;
+    top:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+}
+body {
+  background: #111;
+  font-family: 'barthowheel';
+}
+
+.count {
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 4%;
+    min-height: 1px;
+    margin-bottom: 20px;
+}
+
+#countdown.timer {
+    margin: 0 auto;
+    max-width: 530px;
+}
+
+.countdown>div {
+	border: 1px solid #f7931a;
+    overflow: hidden;
+    width: 115px;
+    height: 115px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    line-height: 180px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f7931a;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.75);
+    font-size: 10px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
+	border-bottom: 5px solid #f7931a;
+}
+
+.countdown>div>span {
+    color: #fff;
+    line-height: 110px;
+    font-size: 50px;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.75);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: block;
+    font-weight: normal;
+}
+
+#coundown_sec span {
+    animation: mymove 1s;
+    -moz-animation: mymove 1s;
+    -webkit-animation: mymove 1s;
+    -o-animation: mymove 1s;
+    -ms-animation: mymove 1s;
+}
