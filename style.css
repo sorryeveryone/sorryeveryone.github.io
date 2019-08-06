@@ -98,3 +98,9 @@ body {
     -o-animation: mymove 1s;
     -ms-animation: mymove 1s;
 }
+a {
+     color: #fff;
+}
+a:hover {
+     color: #000;
+}
