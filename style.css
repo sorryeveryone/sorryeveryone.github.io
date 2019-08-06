@@ -55,7 +55,7 @@ body {
 }
 
 .countdown>div {
-	border: 1px solid #f7931a;
+    border: 1px solid #55acee;
     overflow: hidden;
     width: 115px;
     height: 115px;
@@ -67,13 +67,13 @@ body {
     line-height: 180px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #f7931a;
+    color: #55acee;
     text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.75);
     font-size: 10px;
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
     box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
-	border-bottom: 5px solid #f7931a;
+	border-bottom: 5px solid #55acee;
 }
 
 .countdown>div>span {
