@@ -3,6 +3,12 @@
    src: url('barthowheel.ttf') format('truetype');
    font-weight: normal;
 }
+.sorry {
+    color: yellow;
+    background-color: #000;
+    opacity: 0.9;
+    border: 2px solid white;
+   }
 footer{
     bottom: 0;
     position: fixed;
@@ -102,5 +108,5 @@ a {
      color: #fff;
 }
 a:hover {
-     color: #000;
+     color: #55acee;
 }
