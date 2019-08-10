@@ -28,16 +28,13 @@ footer{
     border-top: 1px solid;
     }
 .center{
-    color: #fff; 
-    font-size: 30px;
-    position:absolute;
-    display:block;
-    height:340px;
-    width:600px;
-    left:50%;
-    top:50%;
-    margin-top:-50px;
-    margin-left:-50px;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
 }
 body {
   background: url('https://cdn.discordapp.com/attachments/404279568829120514/607909364296056832/2019-07-20_01.08.54.jpg') no-repeat center center fixed; 
