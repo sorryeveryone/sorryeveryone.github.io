@@ -4,10 +4,11 @@
    font-weight: normal;
 }
 .sorry {
+    padding: 10px;
     color: yellow;
     background-color: #000;
     opacity: 0.9;
-    border: 2px solid white;
+    border: 1px solid white;
    }
 footer{
     bottom: 0;
