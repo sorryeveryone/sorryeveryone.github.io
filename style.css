@@ -8,7 +8,7 @@
     padding: 10px;
     color: white;
     background-color: #000;
-    opacity: 0.9;
+    opacity: 0.5;
     border: 1px solid white;
    }
 footer{
@@ -27,12 +27,6 @@ footer{
     color:#55acee;
     border-top: 1px solid;
     }
-.center{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 body {
   background: url('https://cdn.discordapp.com/attachments/404279568829120514/607909364296056832/2019-07-20_01.08.54.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
