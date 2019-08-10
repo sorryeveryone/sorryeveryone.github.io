@@ -4,6 +4,8 @@
    font-weight: normal;
 }
 .sorry {
+    width: 60%;
+    height: 100px;
     padding: 10px;
     color: yellow;
     background-color: #2e2e2e;
